@@ -8,6 +8,8 @@ public class UIController : MonoBehaviour {
     public RawImage WASD;
     public RawImage mouse;
     public Text title;
+    public RawImage escapeButton;
+    public Text escapeText;
 
     public Vector3 initialMousePosition;
 
@@ -26,6 +28,8 @@ public class UIController : MonoBehaviour {
             WASD.CrossFadeAlpha(0, .5f, false);
             mouse.CrossFadeAlpha(0, .5f, false);
             title.CrossFadeAlpha(0, .5f, false);
+            escapeButton.CrossFadeAlpha(0, .5f, false);
+            escapeText.CrossFadeAlpha(0, .5f, false);
         }
     }
 }

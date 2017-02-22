@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ec72cbb576ee3c5419d75c31827cc21a
+timeCreated: 1487740624
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Adobe Myungjo Std
+  fontNames:
+  - Adobe Myungjo Std
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

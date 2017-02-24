@@ -5,6 +5,7 @@ using UnityEngine;
 public class ActivateRed : MonoBehaviour {
 
     public GameObject redRoom;
+    public AudioSource noise;
 
 	// Use this for initialization
 	void Start () {
@@ -20,5 +21,6 @@ public class ActivateRed : MonoBehaviour {
     {
         redRoom.SetActive(true);
         Debug.Log("Red spawn");
+        noise.volume -= 0.2f;
     }
 }

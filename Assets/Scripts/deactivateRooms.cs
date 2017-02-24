@@ -12,6 +12,8 @@ public class deactivateRooms : MonoBehaviour
     public GameObject endRoom;
     public bool endRoomIsDying = false;
     public float timeLeft;
+    public float newVolume = 1f;
+    public AudioSource noise;
 
     // Use this for initialization
     void Start()
@@ -31,6 +33,7 @@ public class deactivateRooms : MonoBehaviour
         {
             endRoomIsDying = false;
             endRoom.SetActive(false);
+            noise.volume = newVolume;
         }
     }
 
